@@ -7,10 +7,8 @@ import StarEmptyImg from '../../../assets/img/star-empty.png';
 const NavItem = ({
   isFavorite,
   href,
-  info: Info,
   name,
   onSelectFavorite,
-  ...rest
 }) => {
 
   return (
@@ -54,7 +52,6 @@ NavItem.propTypes = {
   isFavorite: PropTypes.bool,
   href: PropTypes.string,
   name: PropTypes.string.isRequired,
-  info: PropTypes.elementType,
 };
 
 export default NavItem;

@@ -16,6 +16,7 @@ const SelectBox = ({onChange}) => {
         </select>
         <img
           src={ArrowDownImg}
+          alt="select box arrow down"
         />
       </div>
     </div>

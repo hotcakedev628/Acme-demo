@@ -1,18 +1,13 @@
 import React, {
   Suspense,
-  // Fragment,
   lazy
 } from 'react';
 import {
   Switch,
-  Redirect,
   Route
 } from 'react-router-dom';
 import MainLayout from './layout/MainLayout';
 import LoadingScreen from './components/LoadingScreen';
-
-import IndexView from './views/IndexView';
-import MainView from './views/MainView';
 
 export const renderRoutes = (routes = []) => (
   <Suspense fallback={<LoadingScreen />}>
@@ -40,11 +35,6 @@ export const renderRoutes = (routes = []) => (
 );
 
 const routes = [
-  // {
-  //   exact: true,
-  //   path: '/',
-  //   component: () => <Redirect to="/index" />
-  // },
   {
     exact: true,
     path: '/',

@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 const MainView = ({
   children,
-  ...rest
 }) => {
   return (
     <div

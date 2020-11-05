@@ -14,7 +14,7 @@ const TopBar = ({
         <SearchBox
           onChange={onQueryChange}
         />
-        <a>
+        <a href="/">
           <img 
             className="add-conversation-button"
             src={AddConversationImg} 

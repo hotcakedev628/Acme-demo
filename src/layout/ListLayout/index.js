@@ -63,7 +63,7 @@ const ListLayout = ({
 
   const handleSelectFavoriteConversations = (conversationId) => {
     const index = conversations.findIndex(conversation => conversation.id === conversationId);
-    console.log('handleSelect', index, conversationId)
+
     if (index >= 0) {
       setConversations(updateElementById(conversations, index, {...conversations[index], isFavorite: !conversations[index].isFavorite}));
     }
