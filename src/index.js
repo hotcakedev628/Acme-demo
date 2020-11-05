@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './__mock__/conversations';
+import 'react-perfect-scrollbar/dist/css/styles.css';
 
 ReactDOM.render(
   <React.StrictMode>
