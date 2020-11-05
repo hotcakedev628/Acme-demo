@@ -15,8 +15,6 @@ export const renderRoutes = (routes = []) => (
       {routes.map((route, i) => {
         const Component = route.component;
 
-        console.log('route', i, Component)
-
         return (
           <Route
             key={i}
