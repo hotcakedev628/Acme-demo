@@ -3,7 +3,7 @@
 ## Used technologies
 React, React Hook, Axios, Mock-Adapter, Sass, flex, react-perfect-scrollbar
 
-## Used technologies
+## Used tools
 VS Code, Photoshop, Chrome dev tool
 
 ## Additional features and technologies
